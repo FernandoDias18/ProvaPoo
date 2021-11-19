@@ -1,3 +1,3 @@
 public interface Clickable {
-    public void onClick();
+    public void onClick(); // Método chamado para "clicar" nos objetos
 }
