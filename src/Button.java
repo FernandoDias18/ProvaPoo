@@ -28,37 +28,37 @@ public class Button extends GUI implements Clickable, Serializable{
     }
 
     @Override
-    // Getter (nome) herdado, sobrescrita do método getNome
+    // Getter (nome) herdado
     public String getNome() {
         return super.getNome();
     }
 
     @Override
-    // Setter (nome) herdado, sobrescrita do método setNome
+    // Setter (nome) herdado
     public void setNome(String nome) {
         super.setNome(nome);
     }
 
     @Override
-    // Getter (x) herdado, sobrescrita do método getX
+    // Getter (x) herdado
     public Float getX() {
         return super.getX();
     }
 
     @Override
-    // Setter (x) herdado, sobrescrita do método setX
+    // Setter (x) herdado
     public void setX(Float x) {
         super.setX(x);
     }
 
     @Override
-    // Getter (y) herdado, sobrescrita do método getY
+    // Getter (y) herdado
     public Float getY() {
         return super.getY();
     }
 
     @Override
-    // Setter (y) herdado, sobrescrita do método setY
+    // Setter (y) herdado
     public void setY(Float y) {
         super.setY(y);
     }
@@ -66,10 +66,11 @@ public class Button extends GUI implements Clickable, Serializable{
     @Override
     // Método onDraw (Mostrar que o Button foi desenhado)
     public void onDraw() {
-        // Herda o método onDraw
-        super.onDraw();
         // Adiciona o System.out.print
         System.out.print("Button " + texto);
+        // Herda o método onDraw
+        super.onDraw();
+
         
     }
 }
